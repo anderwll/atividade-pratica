@@ -2,13 +2,13 @@ import * as React from 'react';
 
 import ContainerIconStyled from './ContainerIconStyled';
 
-interface SectionIconProps {
+interface ContainerIconProps {
     icon: React.ReactNode,
     titulo: string,
     texto: string
 }
 
-const SectionIcon: React.FC<SectionIconProps> = ({icon, titulo, texto}) => {
+const ContainerIcon: React.FC<ContainerIconProps> = ({icon, titulo, texto}) => {
     return (
         <ContainerIconStyled>
             <span>{icon}</span>
@@ -18,4 +18,4 @@ const SectionIcon: React.FC<SectionIconProps> = ({icon, titulo, texto}) => {
     );
 };
 
-export default SectionIcon;
+export default ContainerIcon;

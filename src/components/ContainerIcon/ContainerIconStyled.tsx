@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SectionIconStyled = styled.div`
+const ContainerIconStyled = styled.div`
     text-align: center;
 
     span {
@@ -9,4 +9,4 @@ const SectionIconStyled = styled.div`
     }
 `
 
-export default SectionIconStyled;
+export default ContainerIconStyled;
