@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import BannerStyle from './BannerStyle';
+import BannerStyled from './BannerStyled';
 
 interface BannerProps {
     titulo: string,
@@ -9,9 +9,9 @@ interface BannerProps {
 
 const Banner: React.FC<BannerProps> = ({titulo, footer}) => {
     return (
-        <BannerStyle tamanho={footer}>
+        <BannerStyled tamanho={footer}>
             <h1>{titulo}</h1> 
-        </BannerStyle>
+        </BannerStyled>
     );
 };
 
