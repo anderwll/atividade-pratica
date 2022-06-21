@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { BsBoxSeam, BsCheckCircle, BsLaptop } from 'react-icons/bs';
 import styled from 'styled-components';
-import SectionIcon from '../SectionIcons/SectionIcon';
+import ContainerIcon from '../ContainerIcon/ContainerIcon';
 
 interface SecaoIconsProps {
     
@@ -20,9 +20,9 @@ const SecaoIconsStyled = styled.div`
 const SecaoIcons: React.FC = (props) => {
     return (
         <SecaoIconsStyled>
-            <SectionIcon icon={<BsLaptop />} titulo='Somente para laptop' texto='Vamos aprender a utilizar um framework' />
-            <SectionIcon icon={<BsBoxSeam />} titulo='Criado com componetes' texto='Utilizamos o Styled componetes' />
-            <SectionIcon icon={<BsCheckCircle />} titulo='Facil aproveitamento' texto='Estamos no caminho' /> 
+            <ContainerIcon icon={<BsLaptop />} titulo='Somente para laptop' texto='Vamos aprender a utilizar um framework' />
+            <ContainerIcon icon={<BsBoxSeam />} titulo='Criado com componetes' texto='Utilizamos o Styled componetes' />
+            <ContainerIcon icon={<BsCheckCircle />} titulo='Facil aproveitamento' texto='Estamos no caminho' /> 
         </SecaoIconsStyled>
     );
 };

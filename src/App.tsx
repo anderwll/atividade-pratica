@@ -20,7 +20,7 @@ const temas = {
 function App() {
   return (
     <>
-      <ThemeProvider theme={temas.dark}>
+      <ThemeProvider theme={temas.light}>
         <GlobalStyle />
         <AppRouts />
       </ThemeProvider>

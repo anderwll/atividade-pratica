@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Banner from '../components/Banner/Banner';
 import SecaoContent from '../components/SecaoContent/SecaoContent';
-import SecaoIcons from '../components/SecaoIcons.tsx/SecaoIcons';
+import SecaoIcons from '../components/SecaoIcons/SecaoIcons';
 import Footer from '../components/Footer/Footer';
 
 import Img1 from '../assets/image/smartphone.jpg'
